@@ -100,13 +100,13 @@ section {
     color: #fce138;
 }
 
-.hero-cta p {
+/*.hero-cta p {
     position: absolute;
     top: 175px;
     right: 725px;
     text-align: right;
     color: rgb(239, 247, 248);
-}
+} */
 
 .hero-form {
     color: #024e76;
@@ -204,6 +204,7 @@ intro p {
 .step h3 {
     color: #024e76;
     font-size: 46px;
+    flex: 1 30%;
 }
 
 .step-text p {
@@ -215,6 +216,26 @@ intro p {
     font-size: 26px;
     line-height: 1.5;
     columns: #024e76;
+}
+
+.step-info {
+    display: flex;
+    flex: 2 70%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.step-img {
+    flex: 1.12%;
+    margin-right: 20px;
+}
+
+.step-text {
+    flex: 12;
+}
+
+.step-img img {
+    max-width: 100%;
 }
 
 
