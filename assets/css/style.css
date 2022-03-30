@@ -152,7 +152,7 @@ section {
 /*What We Do Start */
 
 
-intro p {
+.intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
